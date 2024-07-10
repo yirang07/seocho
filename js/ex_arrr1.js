@@ -49,3 +49,11 @@ console.log('🚀 ~ s3:', s3);
 
 const ret = [...s3];
 console.log('🚀 ~ ret:', ret);
+
+const introduce3 = (name: string, age: number, height?: number) => {
+  console.log(`이름 :  ${name}`);
+  console.log(`나이 : ${age} 살`);
+  if (height) {
+    return console.log(`키 ${height + 10}cm`);
+  }
+};

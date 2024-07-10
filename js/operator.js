@@ -1,5 +1,16 @@
 // let a = 1, b = 2;
-let a = 1;
+let a = 1;);
+
+d = void (c = a + b);
+console.log(a, b, c, d); // ?
+
+console.log('-------------------');
+const first = 'Uncle';
+const last = 'Bob';
+if (first) {
+  console.log(first);
+}
+console.log(last);
 let b = 2;
 
 // for (let i = 0; i < 10; i++) {
@@ -16,18 +27,7 @@ let c = (a++, b++);
 console.log('c =', c, a, b);
 
 let d = (a--, b + a);
-console.log('d =', d, a, b);
-
-d = void (c = a + b);
-console.log(a, b, c, d); // ?
-
-console.log('-------------------');
-const first = 'Uncle';
-const last = 'Bob';
-if (first) {
-  console.log(first);
-}
-console.log(last);
+console.log('d =', d, a, b
 
 let fullName = first ? first + ' ' : '';
 //         'Uncle ' + 'Bob'

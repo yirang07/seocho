@@ -1,4 +1,17 @@
 {
+  "name": "yirang.js",
+  "version": "0.1.0-beta.2",
+  "description": "js study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "js"
+  ],
+  "author": "yirang",
+  "license": "ISC",
   "dependencies": {
     "moment": "^2.30.1"
   }
